@@ -1,7 +1,29 @@
+*body {
+  font-family: montserat, sans-serif;
+}
+
+.site-nav {
+  display: flex;
+}
+
 .nav-list {
   display: flex;
+  list-style: none;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.015em;
 }
 
 .nav-item:not(:last-child) {
   margin-right: 40px;
+}
+
+.site-contacts {
+  display: flex;
+}
+
+.list {
+  list-style: none;
 }
